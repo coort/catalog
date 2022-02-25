@@ -25,7 +25,7 @@ public class Catalog {
     }
 
     public void pressBuyButton() {
-        $$("[class*='catalog-item']").findBy(text("Купить")).shouldBe(visible, ofSeconds(5)).click();
+        $$("[class*='catalog-item2351326']").findBy(text("Купить")).shouldBe(visible, ofSeconds(5)).click();
     }
 
     public void pressToCartButton() {
